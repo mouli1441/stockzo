@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+.container-fluid{
+padding: 7% 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/* .thinkimg{
+    padding: 4px 5px;
+} */
+
+.about {
+    padding:  7px 50px 50px;
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    /* background-size: contain;
+    background-position: center; */
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.nav-item {
+  padding:  3px ;
+  padding-right: 13px;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+  }
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+
+.divider {
+    width: 300px;
+    height: 5px;
+    background-color: black;
+    display: flex;
+    text-decoration: underline;
+}
+
+
+
+
+ /* .btn {
+    border: none;
+     background-color: black; 
+   color: white; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  width: 150px; 
+  text-align: center;
+  padding-right: 30px; */
+  /* margin-left: -20px!important;
+  margin-top: -120%; */
+  
+  .button {
+    background-color: white;
+    color: black;
+    padding: 7px 9px;
+    border: none;
+  }
+
+  .btn {
+    background-color: black; 
+    border: none; 
+    color: white; 
+    padding: 7px 9px;
+    font-size: 16px; 
+    cursor: pointer;
+    padding: 10px 20px; 
+    margin-top : 30px
+}
+
+.services {
+    padding: 7px 50px;
+   
+}
+
+.btn btn-lg btn-block btn-light {
+    color: white;
+    background-color: black;
+}
+
+.team-header{
+    padding-top: 20% ;
+}
+
+.team {
+    padding: 3% 3% 15%;
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    text-align:center;
+    padding:5%;
+
+}
+
+
+
+
+#team {
+    padding: 3% 3% 15%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .team-title {
+    font-size: 1.5rem;
+  }
+  
+  .team-box {
+    text-align:center;
+    padding:5%;
+  }
+
+  .team-heading {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .form-section {
+    background-color: black;
+    color: white;
+    padding: 4% 3% 4%;
+  }
+
+  .login-header {
+    padding: 3%;
+  }
+
+  .form-header {
+    color: white;
+  }
+
+  .form-group {
+    padding: 3%;
+  
+
+  }
+
+  .form-control {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .login-heading {
+    padding: 5% ;
+    padding-left: 0%;
+  }
+
+.form-image {
+  padding-left: 15%;
+}
+
+.card {
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 5%;
+}
+
+
+.userfeedback-section {
+  padding: 6% 3% 6%;
+}
+
+.feedback{
+  padding: 3%;
+}
+
+.feedback-text {
+  padding-left: 0% 3% 13%;
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+.text-left {
+  padding: 0% 0% 4%;
+}
+
+.blog-section{
+  padding: 8% 3% 8% ;
+  
+}
+
+.blog-header {
+  text-align: center;
+}
+ .blog {
+  padding: 3%;
+ }
+
+ .card {
+  align-items: center;
+ }
+  
+ .blog-button{
+  /* background-color: black;
+  color: white; */
+  padding: 3%;
+  
+ }
+
+ .contact-section {
+  background-color: black;
+  color: white;
+  
+ }
+
+ .contact-group {
+  padding: 3%;
+  position: relative;
+  border-radius: 1rem;
+  display: inline;
+
+ }
+
+/* .form-control{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 2px ;
+  border-color: #fff;
+
+ } */
+
+ 
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media(max-width: 1020px) {
+
+  #heading {
+    text-align: center;
+  }
+  .heading-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
